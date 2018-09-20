@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": "node 10", "modules": false }]
+  ],
+  "plugins": [["@babel/plugin-transform-react-jsx", { "pragma": "h" }]]
+}
